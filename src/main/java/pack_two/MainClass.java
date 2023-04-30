@@ -17,15 +17,15 @@ public class MainClass {
     }
 
     public static void print() {
-       CountryRussia countryRussia = new CountryRussia();
+       Countries.CountryRussia countryRussia = new Countries.CountryRussia();
        System.out.println(countryRussia.getCountry_name() + ", " + countryRussia.getCountry_square() + ", " +
                countryRussia.getCountry_population());
     }
 
     public static void printAll() {
-        CountryRussia countryRussia = new CountryRussia();
+        Countries.CountryRussia countryRussia = new Countries.CountryRussia();
         checkIncorrectValues(countryRussia);
-        CountryRussia[] countryRussiaArray = new CountryRussia[]{countryRussia};
+        Countries.CountryRussia[] countryRussiaArray = new Countries.CountryRussia[]{countryRussia};
         System.out.println(Arrays.toString(countryRussiaArray));
 
         CountryFinland[] countryFinland = new CountryFinland[]{new CountryFinland()};
@@ -42,17 +42,17 @@ public class MainClass {
         System.out.println(Arrays.toString(new CountrySingapore[]{countrySingapore}));
     }
 
-    public static void checkIncorrectValues(CountryRussia country_Russia) throws IllegalArgumentException {
+    public static void checkIncorrectValues(Countries.CountryRussia country_Russia) throws IllegalArgumentException {
         if (country_Russia.getCountry_square() <=0 || country_Russia.getCountry_population()<=0) {
 
             throw new IllegalArgumentException("Площадь страны или население задано <= 0");
         }
      }
     public static void makeCapitalEmpty() {
-        CountryRussia countryRussia = new CountryRussia();
+        Countries.CountryRussia countryRussia = new Countries.CountryRussia();
         System.out.println(" -----------------------------");
         System.out.println("Предыдущее название столицы - " + countryRussia.getCountry_capital());
         countryRussia.setCountry_capital("");
         System.out.println("Название столицы установлено empty - " + countryRussia.getCountry_capital());
-        System.out.println(Arrays.toString(new CountryRussia[]{countryRussia}));
+        System.out.println(Arrays.toString(new Countries.CountryRussia[]{countryRussia}));
      }}
