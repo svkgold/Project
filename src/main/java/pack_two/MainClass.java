@@ -46,6 +46,8 @@ public class MainClass {
     }
     public static void print(Country countries[]) {
         System.out.println(" -----------------------------");
+        System.out.println("Выводится информация название страны, площадь, население, столица: ");
+        System.out.println(" ");
         for (int i = 0; i < countries.length; ++i) {
             String a = countries[i].getCountry_name();
             double b = countries[i].getCountry_square();
@@ -55,6 +57,7 @@ public class MainClass {
         }
     }
      public static void printAll(Country countries[]) {
+
          System.out.println(Arrays.toString(countries));
     }
     public static void russia() {
@@ -113,6 +116,8 @@ public class MainClass {
     }
     public static void makeCapitalNewName(Country countries[]) {
       System.out.println(" -----------------------------");
+      System.out.println("Сброс и смена столицы страны: ");
+      System.out.println(" ");
       String a=countries[0].getCountry_capital();
       System.out.println("Предыдущее название столицы - " + a);
       String b=countries[0].setCountry_capital("Saint Petersburg");
