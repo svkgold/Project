@@ -22,15 +22,12 @@ public class Country {
             System.out.println("Название страны не задано");
         }
     }
-
     public void setCountry_name_empty(String country_name) {
         this.country_name = "";
     }
-
     public double getCountry_square() {
         return country_square;
     }
-
     public void setCountry_square(double country_square) {
         this.country_square = country_square;
         if (country_square <= 0) {
@@ -41,11 +38,9 @@ public class Country {
             System.out.println("Площадь столицы задана null");
         }
     }
-
     public double getCountry_population() {
         return country_population;
     }
-
     public void setCountry_population(double country_population) {
         this.country_population = country_population;
         if (country_population <= 0) {
@@ -53,7 +48,6 @@ public class Country {
                     " задайте положительное число");
         }
     }
-
     public String getCountry_capital() {
         return country_capital;
     }
@@ -65,7 +59,6 @@ public class Country {
         }
         return country_capital;
     }
-
     public double getCapital_population() {
         return capital_population;
     }
@@ -77,7 +70,6 @@ public class Country {
                     " задайте положительное число");
         }
     }
-
     @Override
     public String toString() {
         return "Country{" +
@@ -88,15 +80,12 @@ public class Country {
                 ", capital_population=" + capital_population +
                 '}';
     }
-
     public Country(String country_name, double country_square, double country_population,
                    String country_capital, double capital_population) {
     }
 
     public Country() {
-
     }
-
     public void setCountry(String country_name, double country_square, double country_population,
                            String country_capital, double capital_population) throws IllegalArgumentException {
 
