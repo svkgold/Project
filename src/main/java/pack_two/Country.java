@@ -10,10 +10,6 @@ public class Country {
     private String country_capital;
     private double capital_population;
 
-    //   public Country(String country_name, double country_square, double country_population,
-    //                 String country_capital, double capital_population) {
-    //      System.out.println(getCountry_name());
-    //   }
 
     public String getCountry_name() {
         return country_name;
@@ -64,10 +60,10 @@ public class Country {
         return country_capital;
     }
 
-    public String setCountry_capital(String country_capital) {
+    public String setCountry_capital(String country_capital) throws IllegalArgumentException {
         this.country_capital = country_capital;
         if (country_capital.equals("")) {
-            System.out.println("Название столицы не задано");
+            throw new IllegalArgumentException("Название столицы не задано");
         }
         return country_capital;
     }
@@ -95,36 +91,42 @@ public class Country {
                 '}';
     }
 
-    /* public static void checkIncorrectValues() throws IllegalArgumentException {
-         if (country.getCountry_square() <= 0 || country.getCountry_population() <= 0) {
-
-             throw new IllegalArgumentException("Площадь страны или население задано <= 0");
-         }
-     } */
     public Country(String country_name, double country_square, double country_population,
                    String country_capital, double capital_population) {
-        //  System.out.println(getCountry_name());
+
     }
 
     public Country() {
-        //  System.out.println(getCountry_name());
+
     }
 
-    public Country(String country_name, double country_square, double country_population) {
-        //  System.out.println(getCountry_name());
-    }
 
     public void setCountry(String country_name, double country_square, double country_population,
-                           String country_capital, double capital_population) {
+                           String country_capital, double capital_population) throws IllegalArgumentException {
 
         this.country_name = country_name;
+        if (country_name.equals("")) {
+            throw new IllegalArgumentException("Название страны не задано");
+        }
         this.country_square = country_square;
+        if (country_square <= 0) {
+            throw new IllegalArgumentException("Площадь страны задана меньше или равно 0," +
+                    " задайте положительное число");
+        }
+        if (Objects.equals(country_square, null)) {
+            throw new IllegalArgumentException("Площадь страны задана null");
+        }
         this.country_population = country_population;
+        if (country_population <= 0) {
+            throw new IllegalArgumentException("Население страны меньше или равно 0 ");
+        }
         this.country_capital = country_capital;
+        if (country_capital.equals("")) {
+            throw new IllegalArgumentException("Название столицы не задано");
+        }
         this.capital_population = capital_population;
+        if (capital_population <= 0) {
+            throw new IllegalArgumentException("Население столицы меньше или равно 0");
+        }
     }
-   /* public void String setCountryNewCapital(String country_capital) {
-    this.country_capital = country_capital;
-       return country_capital;
-    }*/
 }

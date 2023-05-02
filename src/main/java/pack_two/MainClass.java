@@ -8,7 +8,7 @@ public class MainClass {
         System.out.println("");
        // System.out.println("Вывод информации по стране по трем параметрам: название, площадь, население: ");
         System.out.println("");
-        print();
+
         System.out.println("");
         System.out.println("Вывод информации по всем странам и всем параметрам: ");
         System.out.println("");
@@ -28,7 +28,7 @@ public class MainClass {
                 "Paris", 2.1);
 
         countries[4].setCountry("Singapore", 0.00725, 5.7,
-                "Singapore", 0.00);
+                "Singapore", 1.2);
 
         System.out.println("____________________");
         System.out.println("Выводится массив со всеми странами и данными: ");
@@ -42,11 +42,16 @@ public class MainClass {
         printAll(countries);
         makeCapitalNewName(countries);
         printAll(countries);
+        print(countries);
     }
 
-    public static void print() {
-        //  Countries.CountryRussia countryRussia = new Countries.CountryRussia();
-        // System.out.println(Russia.getCoutry_name());
+    public static void print(Country countries[]) {
+        System.out.println(" -----------------------------");
+        String a=countries[0].getCountry_name();
+        double b=countries[0].getCountry_square();
+        double c=countries[0].getCountry_population();
+
+        System.out.println("Название страны, площадь и население - " + a + " " + b + " " + c);
     }
 
      public static void printAll(Country countries[]) {
@@ -136,8 +141,5 @@ public class MainClass {
       System.out.println("Предыдущее название столицы - " + a);
       String b=countries[0].setCountry_capital("Saint Petersburg");
       System.out.println("Обновленное название столицы - " + b);
-
-     //  System.out.println("Название столицы установлено empty - " + getCountry_capital());
-
     }
 }
