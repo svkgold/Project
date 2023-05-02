@@ -55,4 +55,5 @@ public class MainClass {
         countryRussia.setCountry_capital("");
         System.out.println("Название столицы установлено empty - " + countryRussia.getCountry_capital());
         System.out.println(Arrays.toString(new CountryRussia[]{countryRussia}));
-     }}
+     }
+}

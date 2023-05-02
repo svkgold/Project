@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20dec3c-a04e-4f91-8411-bd6a92eda2b1" name="Changes" comment="DEV_110_1_1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pack_two/Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/CountryRussia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pack_one/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pack_one/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pack_two/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/CountryAndorra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/CountryFinland.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/CountryFrance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/CountrySingapore.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pack_two/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +58,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -130,7 +134,13 @@
       <workItem from="1682700300301" duration="1242000" />
       <workItem from="1682776802778" duration="11000" />
       <workItem from="1682870241732" duration="1006000" />
-      <workItem from="1682871295564" duration="1487000" />
+      <workItem from="1682871295564" duration="2355000" />
+      <workItem from="1682873726705" duration="465000" />
+      <workItem from="1682874238629" duration="308000" />
+      <workItem from="1682874591506" duration="8116000" />
+      <workItem from="1682884545069" duration="2658000" />
+      <workItem from="1682963180758" duration="2660000" />
+      <workItem from="1683013906311" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="DEV_110_1_1">
       <created>1680770809429</created>
@@ -146,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682871189019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DEV_110_1_1">
+      <created>1682872800546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682872800546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
