@@ -102,11 +102,11 @@ public class Country {
     @Override
     public String toString() {
         return "Country{" +
-                "country_name='" + countryName + '\'' +
-                ", country_square=" + countrySquare +
-                ", country_population=" + countryPopulation +
-                ", country_capital='" + countryCapital + '\'' +
-                ", capital_population=" + capitalPopulation +
+                "countryName='" + countryName + '\'' +
+                ", countrySquare=" + countrySquare +
+                ", countryPopulation=" + countryPopulation +
+                ", countryCapital='" + countryCapital + '\'' +
+                ", capitalPopulation=" + capitalPopulation +
                 '}';
     }
 }
