@@ -24,9 +24,7 @@ public class Country {
     }
 
     public void setCountry_name_empty(String country_name) {
-
         this.country_name = "";
-
     }
 
     public double getCountry_square() {
@@ -93,13 +91,11 @@ public class Country {
 
     public Country(String country_name, double country_square, double country_population,
                    String country_capital, double capital_population) {
-
     }
 
     public Country() {
 
     }
-
 
     public void setCountry(String country_name, double country_square, double country_population,
                            String country_capital, double capital_population) throws IllegalArgumentException {
