@@ -49,10 +49,10 @@ public class MainClass {
         System.out.println("Выводится информация название страны, площадь, население, столица: ");
         System.out.println(" ");
         for (int i = 0; i < countries.length; ++i) {
-            String a = countries[i].getCountry_name();
-            double b = countries[i].getCountry_square();
-            double c = countries[i].getCountry_population();
-            String d = countries[i].getCountry_capital();
+            String a = countries[i].getCountryName();
+            double b = countries[i].getCountrySquare();
+            double c = countries[i].getCountryPopulation();
+            String d = countries[i].getCountryCapital();
             System.out.println("Название страны, площадь, население, столица - " + a + " " + b + " " + c + " " + d);
         }
     }
@@ -62,55 +62,55 @@ public class MainClass {
     }
     public static void russia() {
         Country russia = new Country();
-        russia.setCountry_name("Russia");
-        russia.setCountry_square(17.1);
-        russia.setCountry_population(146.7);
-        russia.setCountry_capital("Moscow");
-        russia.setCapital_population(12.6);
-        System.out.println(russia.getCountry_name());
+        russia.setCountryName("Russia");
+        russia.setCountrySquare(17.1);
+        russia.setCountryPopulation(146.7);
+        russia.setCountryСapital("Moscow");
+        russia.setCapitalPopulation(12.6);
+        System.out.println(russia.getCountryName());
         System.out.println(russia);
         System.out.println("");
     }
     public static void andorra() {
         Country andorra = new Country();
-        andorra.setCountry_name("Andorra");
-        andorra.setCountry_square(0.467);
-        andorra.setCountry_population(0.0854);
-        andorra.setCountry_capital("Andorra la Vella");
-        andorra.setCapital_population(0.0226);
-        System.out.println(andorra.getCountry_name());
+        andorra.setCountryName("Andorra");
+        andorra.setCountrySquare(0.467);
+        andorra.setCountryPopulation(0.0854);
+        andorra.setCountryСapital("Andorra la Vella");
+        andorra.setCapitalPopulation(0.0226);
+        System.out.println(andorra.getCountryName());
         System.out.println(andorra);
         System.out.println("");
     }
     public static void finland() {
         Country finland = new Country();
-        finland.setCountry_name("Finland");
-        finland.setCountry_square(0.338);
-        finland.setCountry_population(5.5);
-        finland.setCountry_capital("Helsinki");
-        finland.setCapital_population(0.655);
-        System.out.println(finland.getCountry_name());
+        finland.setCountryName("Finland");
+        finland.setCountrySquare(0.338);
+        finland.setCountryPopulation(5.5);
+        finland.setCountryСapital("Helsinki");
+        finland.setCapitalPopulation(0.655);
+        System.out.println(finland.getCountryName());
         System.out.println(finland);
         System.out.println("");
     }
     public static void france() {
         Country france = new Country();
-        france.setCountry_name("France");
-        france.setCountry_square(0.6438);
-        france.setCountry_population(67.8);
-        france.setCountry_capital("Paris");
-        france.setCapital_population(2.1);
-        System.out.println(france.getCountry_name());
+        france.setCountryName("France");
+        france.setCountrySquare(0.6438);
+        france.setCountryPopulation(67.8);
+        france.setCountryСapital("Paris");
+        france.setCapitalPopulation(2.1);
+        System.out.println(france.getCountryName());
         System.out.println(france);
         System.out.println("");
     }
     public static void singapore() {
         Country singapore = new Country();
-        singapore.setCountry_name("Singapore");
-        singapore.setCountry_square(0.00725);
-        singapore.setCountry_population(5.7);
-        singapore.setCountry_capital("Singapore");
-        System.out.println(singapore.getCountry_name());
+        singapore.setCountryName("Singapore");
+        singapore.setCountrySquare(0.00725);
+        singapore.setCountryPopulation(5.7);
+        singapore.setCountryСapital("Singapore");
+        System.out.println(singapore.getCountryName());
         System.out.println(singapore);
         System.out.println("");
     }
@@ -118,9 +118,9 @@ public class MainClass {
       System.out.println(" -----------------------------");
       System.out.println("Сброс и смена столицы страны: ");
       System.out.println(" ");
-      String a=countries[0].getCountry_capital();
+      String a=countries[0].getCountryCapital();
       System.out.println("Предыдущее название столицы - " + a);
-      String b=countries[0].setCountry_capital("Saint Petersburg");
+      String b=countries[0].setCountryСapital("Saint Petersburg");
       System.out.println("Обновленное название столицы - " + b);
     }
 }
