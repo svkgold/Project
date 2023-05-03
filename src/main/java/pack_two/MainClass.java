@@ -150,7 +150,7 @@ public class MainClass {
                 ", население столицы - " + d);
     }
 
-    public static void makeCapitalNewName(Country countries[]) {
+        public static void makeCapitalNewName(Country countries[]) {
         System.out.println(" -----------------------------");
         System.out.println("Сброс и смена столицы страны: ");
         System.out.println(" ");
