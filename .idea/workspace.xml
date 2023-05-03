@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20dec3c-a04e-4f91-8411-bd6a92eda2b1" name="Changes" comment="DEV_110_1_1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pack_two/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pack_two/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pack_two/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="DEV_110_1_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +60,20 @@
       <recent name="C:\Users\Alex\Projects\Practice_One\src\main\java\pack_two" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pack_two.MainClass">
+  <component name="RunManager" selected="Application.DEV_110_2.MainClass">
+    <configuration name="DEV_110_2.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DEV_110_2.MainClass" />
+      <module name="DEV_110_1_1_Alubin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DEV_110_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="pack_one.MainClass" />
       <module name="DEV_110_1_1_Alubin" />
@@ -94,6 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DEV_110_2.MainClass" />
+        <item itemvalue="Application.pack_two.MainClass" />
+        <item itemvalue="Application.pack_two.MainClass" />
         <item itemvalue="Application.pack_two.MainClass" />
       </list>
     </recent_temporary>
@@ -141,7 +156,7 @@
       <workItem from="1683037240591" duration="2287000" />
       <workItem from="1683055280666" duration="12000" />
       <workItem from="1683121053359" duration="5912000" />
-      <workItem from="1683139377741" duration="3007000" />
+      <workItem from="1683139377741" duration="3436000" />
     </task>
     <task id="LOCAL-00001" summary="DEV_110_1_1">
       <created>1680770809429</created>
@@ -227,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683127662666</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="DEV_110_1_1">
+      <created>1683142412942</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683142412942</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
