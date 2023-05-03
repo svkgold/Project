@@ -43,11 +43,10 @@ public class MainClass {
         printAll(countries);
         print(countries);
         singaporeNew();
+        russiaNew();
         makeCapitalNewName(countries);
-
-      //  Country[] countries1 = new Country[]{new Country(String countryName, double countrySquare, double countryPopulation),
-      //  new Country(String countryName, double countrySquare, double countryPopulation)};
     }
+
     public static void print(Country countries[]) {
         System.out.println(" -----------------------------");
         System.out.println("Выводится информация название страны, площадь, население, столица: ");
@@ -60,10 +59,12 @@ public class MainClass {
             System.out.println("Название страны, площадь, население, столица - " + a + " " + b + " " + c + " " + d);
         }
     }
-     public static void printAll(Country countries[]) {
 
-         System.out.println(Arrays.toString(countries));
+    public static void printAll(Country countries[]) {
+
+        System.out.println(Arrays.toString(countries));
     }
+
     public static void russia() {
         Country russia = new Country();
         russia.setCountryName("Russia");
@@ -75,6 +76,7 @@ public class MainClass {
         System.out.println(russia);
         System.out.println("");
     }
+
     public static void andorra() {
         Country andorra = new Country();
         andorra.setCountryName("Andorra");
@@ -86,6 +88,7 @@ public class MainClass {
         System.out.println(andorra);
         System.out.println("");
     }
+
     public static void finland() {
         Country finland = new Country();
         finland.setCountryName("Finland");
@@ -97,6 +100,7 @@ public class MainClass {
         System.out.println(finland);
         System.out.println("");
     }
+
     public static void france() {
         Country france = new Country();
         france.setCountryName("France");
@@ -108,6 +112,7 @@ public class MainClass {
         System.out.println(france);
         System.out.println("");
     }
+
     public static void singapore() {
         Country singapore = new Country();
         singapore.setCountryName("Singapore");
@@ -118,22 +123,40 @@ public class MainClass {
         System.out.println(singapore);
         System.out.println("");
     }
-        public static void singaporeNew() {
+
+    public static void singaporeNew() {
 
         Country singaporeNew = new Country("Singapore", 0.00725, 5.7);
-            String a=singaporeNew.getCountryName();
-            double b =singaporeNew.getCountrySquare();
-            double c =singaporeNew.getCountryPopulation();
-            System.out.println("Информация по Сингапуру - " + a + b + c);
-
+        String a = singaporeNew.getCountryName();
+        double b = singaporeNew.getCountrySquare();
+        double c = singaporeNew.getCountryPopulation();
+        System.out.println("");
+        System.out.println("Отдельный вывод информации по Сингапуру: название - " + a +
+                ", площадь - " + b + ", население - " + c);
     }
+
+    public static void russiaNew() {
+
+        Country russiaNew = new Country("Russia", 17.1, 146.7,
+                "Moscow", 12.6);
+        String a = russiaNew.getCountryName();
+        double b = russiaNew.getCountrySquare();
+        double c = russiaNew.getCountryPopulation();
+        String f = russiaNew.getCountryCapital();
+        double d = russiaNew.getCapitalPopulation();
+        System.out.println("");
+        System.out.println("Отдельный вывод информации по Россия: название страны - " + a +
+                ", площадь страны - " + b + ", население страны - " + c + ", столица - " + f +
+                ", население столицы - " + d);
+    }
+
     public static void makeCapitalNewName(Country countries[]) {
-      System.out.println(" -----------------------------");
-      System.out.println("Сброс и смена столицы страны: ");
-      System.out.println(" ");
-      String a=countries[0].getCountryCapital();
-      System.out.println("Предыдущее название столицы - " + a);
-      String b=countries[0].setCountryCapital("Saint Petersburg");
-      System.out.println("Обновленное название столицы - " + b);
+        System.out.println(" -----------------------------");
+        System.out.println("Сброс и смена столицы страны: ");
+        System.out.println(" ");
+        String a = countries[0].getCountryCapital();
+        System.out.println("Предыдущее название столицы - " + a);
+        String b = countries[0].setCountryCapital("Saint Petersburg");
+        System.out.println("Обновленное название столицы - " + b);
     }
 }
