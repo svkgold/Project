@@ -42,7 +42,11 @@ public class MainClass {
         System.out.println(" ");
         printAll(countries);
         print(countries);
+        singaporeNew();
         makeCapitalNewName(countries);
+
+      //  Country[] countries1 = new Country[]{new Country(String countryName, double countrySquare, double countryPopulation),
+      //  new Country(String countryName, double countrySquare, double countryPopulation)};
     }
     public static void print(Country countries[]) {
         System.out.println(" -----------------------------");
@@ -65,7 +69,7 @@ public class MainClass {
         russia.setCountryName("Russia");
         russia.setCountrySquare(17.1);
         russia.setCountryPopulation(146.7);
-        russia.setCountryСapital("Moscow");
+        russia.setCountryCapital("Moscow");
         russia.setCapitalPopulation(12.6);
         System.out.println(russia.getCountryName());
         System.out.println(russia);
@@ -76,7 +80,7 @@ public class MainClass {
         andorra.setCountryName("Andorra");
         andorra.setCountrySquare(0.467);
         andorra.setCountryPopulation(0.0854);
-        andorra.setCountryСapital("Andorra la Vella");
+        andorra.setCountryCapital("Andorra la Vella");
         andorra.setCapitalPopulation(0.0226);
         System.out.println(andorra.getCountryName());
         System.out.println(andorra);
@@ -87,7 +91,7 @@ public class MainClass {
         finland.setCountryName("Finland");
         finland.setCountrySquare(0.338);
         finland.setCountryPopulation(5.5);
-        finland.setCountryСapital("Helsinki");
+        finland.setCountryCapital("Helsinki");
         finland.setCapitalPopulation(0.655);
         System.out.println(finland.getCountryName());
         System.out.println(finland);
@@ -98,7 +102,7 @@ public class MainClass {
         france.setCountryName("France");
         france.setCountrySquare(0.6438);
         france.setCountryPopulation(67.8);
-        france.setCountryСapital("Paris");
+        france.setCountryCapital("Paris");
         france.setCapitalPopulation(2.1);
         System.out.println(france.getCountryName());
         System.out.println(france);
@@ -109,10 +113,19 @@ public class MainClass {
         singapore.setCountryName("Singapore");
         singapore.setCountrySquare(0.00725);
         singapore.setCountryPopulation(5.7);
-        singapore.setCountryСapital("Singapore");
+        singapore.setCountryCapital("Singapore");
         System.out.println(singapore.getCountryName());
         System.out.println(singapore);
         System.out.println("");
+    }
+        public static void singaporeNew() {
+
+        Country singaporeNew = new Country("Singapore", 0.00725, 5.7);
+            String a=singaporeNew.getCountryName();
+            double b =singaporeNew.getCountrySquare();
+            double c =singaporeNew.getCountryPopulation();
+            System.out.println("Информация по Сингапуру - " + a + b + c);
+
     }
     public static void makeCapitalNewName(Country countries[]) {
       System.out.println(" -----------------------------");
@@ -120,7 +133,7 @@ public class MainClass {
       System.out.println(" ");
       String a=countries[0].getCountryCapital();
       System.out.println("Предыдущее название столицы - " + a);
-      String b=countries[0].setCountryСapital("Saint Petersburg");
+      String b=countries[0].setCountryCapital("Saint Petersburg");
       System.out.println("Обновленное название столицы - " + b);
     }
 }
