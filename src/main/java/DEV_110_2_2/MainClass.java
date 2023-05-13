@@ -1,4 +1,4 @@
-package DEV_110_2;
+package DEV_110_2_2;
 
 public class MainClass {
 
