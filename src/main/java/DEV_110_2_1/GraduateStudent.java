@@ -1,4 +1,4 @@
 package DEV_110_2_1;
 
-public class GraduateStudent {
+public class GraduateStudent extends Person {
 }
