@@ -1,10 +1,11 @@
 package DEV_110_2_1;
 
-public abstract class Person
-{
+public abstract class Person {
     static String name = "Alex";
     String surname;
     String faculty;
-    String man;
-    String woman;
+    static String man="He";
+    static String woman="She";
+
+
 }

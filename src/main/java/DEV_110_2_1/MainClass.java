@@ -7,9 +7,19 @@ public class MainClass extends Person {
       //  Teachers[] teachers = new Teachers[]{new Teachers(), new Teachers(), new Teachers()};
        // teachers[0].(new Teachers(Ronald Turner, M, Computer, science, PhD, Programming paradigms))
 
-    StringBuilder str = new StringBuilder();
-    str.append(name);
-        System.out.println(str);
+
+
+      print();
+
+    }
+
+    public static void print(){
+        StringBuilder str = new StringBuilder();
+        String a= String.valueOf(str.append(name));
+        String b= String.valueOf(str.append(woman));
+
+
+        System.out.println("This is " + a + ". " + b);
 
     }
 }

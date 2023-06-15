@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Practice_One:jar2" />
@@ -10,11 +13,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20dec3c-a04e-4f91-8411-bd6a92eda2b1" name="Changes" comment="DEV_110_2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Practice_One_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DEV_130_2/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DEV_130_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DEV_130_2/Order_position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DEV_130_2/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/GraduateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Teachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DEV_110_2_1/Teachers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DEV_110_2" />
+        <entry key="$PROJECT_DIR$" value="DEV_110_2_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,31 +49,63 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/Maven" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
   <component name="ProjectId" id="2NVz4kcuaYkPhIRx0LJpktpopSa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Projects/Practice_One/src/main/java/pack_two&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Alex/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4",
+    "settings.editor.selected.configurable": "MavenSettings"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\Projects\Practice_One\src\main\java\pack_two" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DEV_110_2_1.MainClass">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DEV_110_2_1.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DEV_110_2_1.MainClass" />
       <module name="DEV_110_1_1_Alubin" />
@@ -84,6 +125,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DEV_110_2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DEV_130_2.Main" />
+      <module name="DEV_110_1_1_Alubin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DEV_130_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,9 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DEV_110_2_1.MainClass" />
         <item itemvalue="Application.DEV_110_2_2.MainClass" />
-        <item itemvalue="Application.pack_two.MainClass" />
         <item itemvalue="Application.pack_two.MainClass" />
         <item itemvalue="Application.pack_two.MainClass" />
       </list>
@@ -180,7 +234,17 @@
       <workItem from="1684145732606" duration="25000" />
       <workItem from="1684260838453" duration="603000" />
       <workItem from="1684351270015" duration="76000" />
-      <workItem from="1684351362977" duration="1224000" />
+      <workItem from="1684351362977" duration="2743000" />
+      <workItem from="1684419798569" duration="112000" />
+      <workItem from="1684512639190" duration="2360000" />
+      <workItem from="1684521400528" duration="13000" />
+      <workItem from="1686042063217" duration="9000" />
+      <workItem from="1686853076715" duration="11000" />
+      <workItem from="1686853104606" duration="38000" />
+      <workItem from="1686853794133" duration="2542000" />
+      <workItem from="1686856449662" duration="1078000" />
+      <workItem from="1686857593952" duration="70000" />
+      <workItem from="1686857691929" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="DEV_110_1_1">
       <created>1680770809429</created>
@@ -287,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684011186385</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="DEV_110_2">
+      <created>1684352856311</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684352856311</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

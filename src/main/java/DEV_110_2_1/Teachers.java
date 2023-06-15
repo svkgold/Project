@@ -7,5 +7,8 @@ public class Teachers extends Person {
     private String candidateOfScience;
     private String speciality;
 
+    Teachers name = new Teachers();
+    Teachers sex = new Teachers();
+    Teachers faculty = new Teachers();
 
 }
