@@ -5,6 +5,7 @@ public class Main {
 
         Repository repository = new Repository();
         repository.findAllItems().forEach( System.out::println);
+        System.out.println("-----------------------------");
         repository.findItemsOrdersByIdAndColor().forEach( System.out::println);
     }
 }
