@@ -9,7 +9,6 @@ public class Items {
     private String item_name;
     private String color;
     private int price;
-
     private int stock_balance;
 
     public Items(int id, String articles, String item_name, String color, int price, int stock_balance) {
